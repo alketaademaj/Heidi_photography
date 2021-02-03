@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import Navigation from "./Navigation";
 
-export class frontPage extends Component {
+export class FrontPage extends Component {
   render() {
     return (
       <div>
-        <h1>it workssss</h1>
+        <Navigation></Navigation>
       </div>
     );
   }
 }
 
-export default frontPage;
+export default FrontPage;
