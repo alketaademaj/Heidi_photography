@@ -1,2 +1,1 @@
-# Heidi_CV
-A CV I have done for my friend 
+A photography portfolio I have made for my friend 
