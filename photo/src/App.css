@@ -10,11 +10,22 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: black 3px solid;
+  margin-left: 30%;
 }
 li {
-  display: inline-block;
-  padding: 20px;
+  display: inline-flex;
+  width: auto;
+  padding-left: 100px;
+  margin: 20px;
+  font-family: Courier, monospace;
+  font-size: 20px;
+}
+.color {
+  color: #a6b6bb;
+  text-decoration: none;
+}
+.color:hover {
+  color: rgb(61, 89, 112);
 }
 .Minea-picture {
   width: 150px;

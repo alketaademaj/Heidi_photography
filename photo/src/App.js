@@ -15,16 +15,16 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link className="color" to="/">Home</Link>
             </li>
             <li>
-              <Link to="/About">About</Link>
+              <Link className="color" to="/About">About</Link>
             </li>
             <li>
-              <Link to="/Portfolio">Portfolio</Link>
+              <Link className="color" to="/Portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <Link className="color" to="/Contact">Contact</Link>
             </li>
           </ul>
         </nav>
