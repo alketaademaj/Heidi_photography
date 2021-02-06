@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import About from './About'
 
 export class Home extends Component {
 
@@ -8,8 +9,16 @@ export class Home extends Component {
         console.log(this.props.pictures)
         return (
             <div>
-                <img src="/img/Etu-leea.jpeg" alt="Leea" width="1300px" height="800px"></img>
-                <h1>this will display a link to social media accounts</h1>
+                <div className="organize">
+                    <div className="home-content">
+                        <h1>"Photography is the story I fail to put into words" -Destin Sparks
+                </h1>
+                    </div>
+                    <div className="front-pic">
+                        <img src="/img/maisema.jpeg" alt="valas" width="550px" height="700px"></img>
+                    </div>
+                </div>
+                <About></About>
             </div>
         )
     }

@@ -9,6 +9,9 @@ import Contact from "./components/Contact";
 //Link uses client side routing so you're not reloading the entire application 
 
 function App() {
+
+
+
   return (
     <Router>
       <div className="App">

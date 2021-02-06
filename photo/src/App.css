@@ -14,20 +14,33 @@ ul {
 li {
   display: inline-flex;
   width: auto;
-  margin: 30px;
+  margin: 20px;
   font-family: Courier, monospace;
   font-size: 20px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .color {
-  color: #a6b6bb;
+  color: #afa593;
   text-decoration: none;
 }
 .color:hover {
   color: rgb(61, 89, 112);
 }
-.Minea-picture {
-  width: 150px;
-  height: 300px;
+.front-pic {
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-top: 40px;
+}
+.home-content {
+  padding-top: 150px;
+  padding-left: 200px;
+}
+.organize {
+  display: flex;
+}
+h1 {
+  font-size: 60px;
+  font-family: Courier, monospace;
+  color: #afa593;
 }
