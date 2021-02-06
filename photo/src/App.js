@@ -15,6 +15,9 @@ function App() {
         <nav>
           <ul>
             <li>
+              <Link className="color" to="/"><img alt="logo" src="/img/logo1.PNG" width="180px" height="50px"></img></Link>
+            </li>
+            <li>
               <Link className="color" to="/">Home</Link>
             </li>
             <li>

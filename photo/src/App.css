@@ -10,15 +10,15 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left: 30%;
 }
 li {
   display: inline-flex;
   width: auto;
-  padding-left: 100px;
-  margin: 20px;
+  margin: 30px;
   font-family: Courier, monospace;
   font-size: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 .color {
   color: #a6b6bb;
