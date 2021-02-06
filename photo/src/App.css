@@ -44,3 +44,12 @@ h1 {
   font-family: Courier, monospace;
   color: #afa593;
 }
+.about-div {
+  background-color: #afa593;
+}
+p {
+  font-family: Courier, monospace;
+  font-size: 20px;
+  color: white;
+  padding: 150px;
+}

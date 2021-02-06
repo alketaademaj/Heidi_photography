@@ -9,9 +9,6 @@ import Contact from "./components/Contact";
 //Link uses client side routing so you're not reloading the entire application 
 
 function App() {
-
-
-
   return (
     <Router>
       <div className="App">
@@ -36,9 +33,9 @@ function App() {
         </nav>
         <Switch>
           <Route path="/" exact component={Home}></Route>
-          <Route path="/About" component={About}></Route>
-          <Route path="/Portfolio" component={Portfolio}></Route>
-          <Route Path="/Contact" component={Contact}></Route>
+          <Route path="/About" exact component={About}></Route>
+          <Route path="/Portfolio" exact component={Portfolio}></Route>
+          <Route Path="/Contact" exact component={Contact}></Route>
         </Switch>
       </div>
     </Router>

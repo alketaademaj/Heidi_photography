@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import About from './About'
+import React, { Component } from 'react';
+import About from './About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 export class Home extends Component {
 
@@ -19,6 +21,8 @@ export class Home extends Component {
                     </div>
                 </div>
                 <About></About>
+                <Portfolio></Portfolio>
+                <Contact></Contact>
             </div>
         )
     }

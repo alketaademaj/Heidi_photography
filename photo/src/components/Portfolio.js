@@ -9,11 +9,10 @@ export class Portfolio extends Component {
 
         }
     }
-
     render() {
         return (
             <div>
-                <p>Portfolio</p>
+                <h2>Portfolio</h2>
             </div>
         )
     }
