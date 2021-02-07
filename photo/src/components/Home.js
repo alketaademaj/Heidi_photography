@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
 
 export class Home extends Component {
 
@@ -17,12 +14,9 @@ export class Home extends Component {
                 </h1>
                     </div>
                     <div className="front-pic">
-                        <img src="/img/maisema.jpeg" alt="valas" width="550px" height="700px"></img>
+                        <img src="/img/maisema.jpeg" alt="valas" width="480px" height="600px"></img>
                     </div>
                 </div>
-                <About></About>
-                <Portfolio></Portfolio>
-                <Contact></Contact>
             </div>
         )
     }
