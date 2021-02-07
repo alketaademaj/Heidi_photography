@@ -24,10 +24,10 @@ export default function Contact() {
                 <input type="email" name="user_email" />
                 <label>Message</label>
                 <textarea name="message" />
-                <input type="submit" value="Send" />
+                <input className="button" type="submit" value="Send" />
             </div>
-            <div>
-                <img src="./img/contact.jpeg" alt="koira" width="450px" height="620px"></img>
+            <div className="style-form">
+                <img src="./img/contact.jpeg" alt="koira" width="480px" height="600px"></img>
             </div>
         </form>
     );

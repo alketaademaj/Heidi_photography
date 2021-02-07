@@ -47,8 +47,8 @@ h1 {
 .about-div {
   background-color: rgb(106, 126, 106);
   margin-top: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 197px;
+  margin-right: 197px;
 }
 p {
   font-family: Courier, monospace;
@@ -67,12 +67,19 @@ h2 {
   background-color: #afa593;
   margin: 25px;
   display: flex;
-  justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 197px;
+  margin-right: 197px;
+  position: static;
 }
 .style-form {
   display: grid;
-  padding-left: -200px;
-  padding-right: 300px;
+  padding-left: 268px;
+  position: static;
+}
+.button {
+  background-color: orangered;
+}
+input,
+textarea {
+  border-radius: 5%;
 }
