@@ -30,7 +30,7 @@ li {
 .front-pic {
   padding-left: 100px;
   padding-right: 200px;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 .home-content {
   padding-top: 150px;
@@ -45,19 +45,34 @@ h1 {
   color: #afa593;
 }
 .about-div {
-  background-color: #afa593;
-  margin-top: 40px;
+  background-color: rgb(106, 126, 106);
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 p {
   font-family: Courier, monospace;
   font-size: 20px;
   color: white;
   margin: 50px;
-  padding: 90px;
+  padding: 70px;
   margin-top: -50px;
 }
 h2 {
   padding-top: 70px;
   color: white;
   font-family: Courier, monospace;
+}
+.contact-form {
+  background-color: #afa593;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.style-form {
+  display: grid;
+  padding-left: -200px;
+  padding-right: 300px;
 }
