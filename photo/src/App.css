@@ -65,7 +65,7 @@ h2 {
 }
 .contact-form {
   background-color: #afa593;
-  margin: 25px;
+  margin-top: 25px;
   display: flex;
   margin-left: 197px;
   margin-right: 197px;
@@ -73,8 +73,7 @@ h2 {
 }
 .style-form {
   display: grid;
-  padding-left: 268px;
-  position: static;
+  flex-direction: column;
 }
 .button {
   background-color: orangered;
@@ -82,4 +81,21 @@ h2 {
 input,
 textarea {
   border-radius: 5%;
+}
+.image {
+  margin-left: 423px;
+}
+.singlebox {
+  border: 2px solid black;
+  padding: 100px;
+  padding-bottom: 300px;
+  padding-right: 270px;
+  margin: 10px;
+}
+.picturebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 600px;
+  margin-right: 600px;
 }

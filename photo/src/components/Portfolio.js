@@ -12,7 +12,23 @@ export class Portfolio extends Component {
     render() {
         return (
             <div>
-                <h2>Portfolio</h2>
+                <h3>Portfolio</h3>
+                <div className="picturebox">
+                    <div className="singlebox">
+                    </div>
+                    <div className="singlebox">
+                    </div>
+                    <div className="singlebox">
+                    </div>
+                </div>
+                <div className="picturebox">
+                    <div className="singlebox">
+                    </div>
+                    <div className="singlebox">
+                    </div>
+                    <div className="singlebox">
+                    </div>
+                </div>
             </div>
         )
     }
