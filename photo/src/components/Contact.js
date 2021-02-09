@@ -26,9 +26,6 @@ export default function Contact() {
                 <textarea rows="8" cols="30" name="message" />
                 <input className="button" type="submit" value="Send" />
             </div>
-            <div className="style-form">
-                <img className="image" src="./img/contact.jpeg" alt="koira" width="480px" height="600px"></img>
-            </div>
         </form>
     );
 }
