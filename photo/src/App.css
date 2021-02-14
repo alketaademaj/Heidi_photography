@@ -92,4 +92,9 @@ textarea {
   flex-direction: row;
   justify-content: center;
   margin-top: 25px;
+  position: static;
+}
+.view-button {
+  justify-content: center;
+  align-items: center;
 }

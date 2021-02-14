@@ -14,18 +14,24 @@ export class Portfolio extends Component {
             <div>
                 <div className="picturebox">
                     <div className="singlebox">
+                        <button className="view-button">View</button>
                     </div>
                     <div className="singlebox">
+                        <button className="view-button">View</button>
                     </div>
                     <div className="singlebox">
+                        <button className="view-button">View</button>
                     </div>
                 </div>
                 <div className="picturebox">
                     <div className="singlebox">
+                        <button className="view-button">View</button>
                     </div>
                     <div className="singlebox">
+                        <button className="view-button">View</button>
                     </div>
                     <div className="singlebox">
+                        <button className="view-button">View</button>
                     </div>
                 </div>
             </div>
