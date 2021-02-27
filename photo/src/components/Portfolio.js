@@ -1,32 +1,35 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import PictureOne from './PictureOne';
 
-export class Portfolio extends Component {
+export default function Portfolio() {
 
-    render() {
-        return (
+    return (
+        <Router>
             <div>
                 <div className="picturebox">
                     <div className="singlebox">
-                        <button className="view-button">View</button>
+                        <Link>View</Link>
                     </div>
                     <div className="singlebox">
-                        <button className="view-button">View</button>
+                        <Link>View</Link>
                     </div>
                 </div>
                 <div className="picturebox">
                     <div className="singlebox">
-                        <button className="view-button">View</button>
+                        <Link>View</Link>
                     </div>
                     <div className="singlebox">
-                        <button className="view-button">View</button>
+                        <Link>View</Link>
                     </div>
                     <div className="singlebox">
-                        <button className="view-button">View</button>
+                        <Link>View</Link>
                     </div>
+                    <Switch>
+                        <Route path="/Album" exact component={PictureOne}></Route>
+                    </Switch>
                 </div>
             </div>
-        )
-    }
+        </Router>
+    )
 }
-
-export default Portfolio

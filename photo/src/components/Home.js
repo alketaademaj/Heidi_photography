@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 export class Home extends Component {
 
-    //create an array that contains the images, after that create a loop that goes over the images
-
     render() {
         console.log(this.props.pictures)
         return (

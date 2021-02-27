@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import PictureOne from './components/PictureOne';
 
 //Link uses client side routing so you're not reloading the entire application 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/About" exact component={About}></Route>
           <Route path="/Portfolio" exact component={Portfolio}></Route>
           <Route Path="/Contact" exact component={Contact}></Route>
+          <Route path="/Portfolio/Album" exact component={PictureOne}></Route>
         </Switch>
       </div>
     </Router>
