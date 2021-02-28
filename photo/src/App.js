@@ -36,8 +36,8 @@ function App() {
           <Route path="/" exact component={Home}></Route>
           <Route path="/About" exact component={About}></Route>
           <Route path="/Portfolio" exact component={Portfolio}></Route>
+          <Route path="/PictureOne" exact component={PictureOne}></Route>
           <Route Path="/Contact" exact component={Contact}></Route>
-          <Route path="/Portfolio/Album" exact component={PictureOne}></Route>
         </Switch>
       </div>
     </Router>

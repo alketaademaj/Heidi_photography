@@ -4,7 +4,7 @@ export class PictureOne extends Component {
     render() {
         return (
             <div>
-                <p>HELLOOOOO</p>
+                <h1>HELLOOOOO</h1>
             </div>
         )
     }
