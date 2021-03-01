@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import PictureOne from './PictureOne';
 
 export default function Portfolio() {
 
@@ -8,28 +7,37 @@ export default function Portfolio() {
         <div>
             <div className="picturebox">
                 <div className="singlebox">
+                    <img src="/norway/meri1.jpeg" alt="meri" width="300px"></img>
                     <Link
-                        className="Form-button"
+                        className="view-button"
                         to={{
                             pathname: "/PictureOne",
                         }}
                     >
-                        View
+                        Norway
         </Link>
                 </div>
                 <div className="singlebox">
-                    <Link>View</Link>
+                    <img src="/minea/Minea1.jpeg" alt="meri" width="300px"></img>
+                    <Link
+                        className="view-button"
+                        to={{
+                            pathname: "/PictureTwo",
+                        }}
+                    >
+                        Minea
+        </Link>
                 </div>
-            </div>
-            <div className="picturebox">
                 <div className="singlebox">
-                    <Link>View</Link>
-                </div>
-                <div className="singlebox">
-                    <Link>View</Link>
-                </div>
-                <div className="singlebox">
-                    <Link>View</Link>
+                    <img src="/synttärit/bd4.jpeg" alt="meri" width="300px"></img>
+                    <Link
+                        className="view-button"
+                        to={{
+                            pathname: "/PictureThree",
+                        }}
+                    >
+                        Minea
+        </Link>
                 </div>
             </div>
         </div>

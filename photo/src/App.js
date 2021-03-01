@@ -6,6 +6,8 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import PictureOne from './components/PictureOne';
+import PictureTwo from './components/PictureTwo';
+import PictureThree from './components/PictureThree';
 
 //Link uses client side routing so you're not reloading the entire application 
 
@@ -37,6 +39,8 @@ function App() {
           <Route path="/About" exact component={About}></Route>
           <Route path="/Portfolio" exact component={Portfolio}></Route>
           <Route path="/PictureOne" exact component={PictureOne}></Route>
+          <Route path="/PictureTwo" exact component={PictureTwo}></Route>
+          <Route path="/PictureThree" exact component={PictureThree}></Route>
           <Route Path="/Contact" exact component={Contact}></Route>
         </Switch>
       </div>

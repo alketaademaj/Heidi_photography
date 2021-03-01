@@ -81,20 +81,37 @@ textarea {
   border-radius: 5%;
 }
 .singlebox {
-  border: 2px solid black;
-  padding: 100px;
-  padding-bottom: 300px;
-  padding-right: 270px;
   margin: 10px;
+  position: relative;
 }
 .picturebox {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-top: 25px;
-  position: static;
 }
 .view-button {
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 3px gray solid;
+  color: white;
+  font-family: Courier, monospace;
+}
+.view-button:hover {
+  background-color: gray;
+  opacity: 0.5;
+  transition: 2s;
+}
+.norway {
+  padding: 5px;
+}
+.minea {
+  padding: 5px;
 }
