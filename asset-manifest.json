@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Heidi_photography/static/css/main.cc2ed11e.chunk.css",
-    "main.js": "/Heidi_photography/static/js/main.9fcc06f9.chunk.js",
-    "main.js.map": "/Heidi_photography/static/js/main.9fcc06f9.chunk.js.map",
+    "main.css": "/Heidi_photography/static/css/main.c80bfb7b.chunk.css",
+    "main.js": "/Heidi_photography/static/js/main.59b7a009.chunk.js",
+    "main.js.map": "/Heidi_photography/static/js/main.59b7a009.chunk.js.map",
     "runtime-main.js": "/Heidi_photography/static/js/runtime-main.f533317f.js",
     "runtime-main.js.map": "/Heidi_photography/static/js/runtime-main.f533317f.js.map",
     "static/js/2.c1c588de.chunk.js": "/Heidi_photography/static/js/2.c1c588de.chunk.js",
@@ -10,13 +10,40 @@
     "static/js/3.3066bb26.chunk.js": "/Heidi_photography/static/js/3.3066bb26.chunk.js",
     "static/js/3.3066bb26.chunk.js.map": "/Heidi_photography/static/js/3.3066bb26.chunk.js.map",
     "index.html": "/Heidi_photography/index.html",
-    "static/css/main.cc2ed11e.chunk.css.map": "/Heidi_photography/static/css/main.cc2ed11e.chunk.css.map",
-    "static/js/2.c1c588de.chunk.js.LICENSE.txt": "/Heidi_photography/static/js/2.c1c588de.chunk.js.LICENSE.txt"
+    "static/css/main.c80bfb7b.chunk.css.map": "/Heidi_photography/static/css/main.c80bfb7b.chunk.css.map",
+    "static/js/2.c1c588de.chunk.js.LICENSE.txt": "/Heidi_photography/static/js/2.c1c588de.chunk.js.LICENSE.txt",
+    "static/media/Lea1.69c5131c.jpeg": "/Heidi_photography/static/media/Lea1.69c5131c.jpeg",
+    "static/media/Lea2.67a6fb43.jpeg": "/Heidi_photography/static/media/Lea2.67a6fb43.jpeg",
+    "static/media/Minea1.bd162754.jpeg": "/Heidi_photography/static/media/Minea1.bd162754.jpeg",
+    "static/media/Minea2.37de5bce.jpeg": "/Heidi_photography/static/media/Minea2.37de5bce.jpeg",
+    "static/media/Minea3.97830cf2.jpeg": "/Heidi_photography/static/media/Minea3.97830cf2.jpeg",
+    "static/media/Minea4.4275512e.jpeg": "/Heidi_photography/static/media/Minea4.4275512e.jpeg",
+    "static/media/Minea5.49a9a69b.jpeg": "/Heidi_photography/static/media/Minea5.49a9a69b.jpeg",
+    "static/media/Minea6.143bd86b.jpeg": "/Heidi_photography/static/media/Minea6.143bd86b.jpeg",
+    "static/media/Minea7.7d30e577.jpeg": "/Heidi_photography/static/media/Minea7.7d30e577.jpeg",
+    "static/media/bd11.38c39363.jpeg": "/Heidi_photography/static/media/bd11.38c39363.jpeg",
+    "static/media/bd13.506de882.jpeg": "/Heidi_photography/static/media/bd13.506de882.jpeg",
+    "static/media/bd14.55587fe1.jpeg": "/Heidi_photography/static/media/bd14.55587fe1.jpeg",
+    "static/media/bd3.7477e121.jpeg": "/Heidi_photography/static/media/bd3.7477e121.jpeg",
+    "static/media/bd4.bc9cf5ff.jpeg": "/Heidi_photography/static/media/bd4.bc9cf5ff.jpeg",
+    "static/media/bd6.0de79b59.jpeg": "/Heidi_photography/static/media/bd6.0de79b59.jpeg",
+    "static/media/bd7.9b05ad6b.jpeg": "/Heidi_photography/static/media/bd7.9b05ad6b.jpeg",
+    "static/media/bd8.48293b54.jpeg": "/Heidi_photography/static/media/bd8.48293b54.jpeg",
+    "static/media/logo1.84ca6a9d.PNG": "/Heidi_photography/static/media/logo1.84ca6a9d.PNG",
+    "static/media/maisema.c2d3fc21.jpeg": "/Heidi_photography/static/media/maisema.c2d3fc21.jpeg",
+    "static/media/meri1.0f02d431.jpeg": "/Heidi_photography/static/media/meri1.0f02d431.jpeg",
+    "static/media/tie1.499c58c1.jpeg": "/Heidi_photography/static/media/tie1.499c58c1.jpeg",
+    "static/media/tie2.8eec5acd.jpeg": "/Heidi_photography/static/media/tie2.8eec5acd.jpeg",
+    "static/media/valas1.5c7bf6ec.jpeg": "/Heidi_photography/static/media/valas1.5c7bf6ec.jpeg",
+    "static/media/vuori1.c2d3fc21.jpeg": "/Heidi_photography/static/media/vuori1.c2d3fc21.jpeg",
+    "static/media/vuori2.e0a3d034.jpeg": "/Heidi_photography/static/media/vuori2.e0a3d034.jpeg",
+    "static/media/vuori3.e7ff66b0.jpeg": "/Heidi_photography/static/media/vuori3.e7ff66b0.jpeg",
+    "static/media/vuori4.9fed6a9b.jpeg": "/Heidi_photography/static/media/vuori4.9fed6a9b.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.f533317f.js",
     "static/js/2.c1c588de.chunk.js",
-    "static/css/main.cc2ed11e.chunk.css",
-    "static/js/main.9fcc06f9.chunk.js"
+    "static/css/main.c80bfb7b.chunk.css",
+    "static/js/main.59b7a009.chunk.js"
   ]
 }
