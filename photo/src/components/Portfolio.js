@@ -17,7 +17,7 @@ export default function Portfolio() {
                             pathname: "/PictureOne",
                         }}
                     >
-                        Norway
+                        View
         </Link>
                 </div>
                 <div className="singlebox">

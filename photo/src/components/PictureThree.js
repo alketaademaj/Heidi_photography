@@ -18,14 +18,14 @@ export class PictureThree extends Component {
     render() {
         return (
             <div>
-                <img src={bd3} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd4} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd6} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd7} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd8} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd11} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd14} alt="synttärit" width="450px" height="auto" className="minea"></img>
-                <img src={bd13} alt="synttärit" width="450px" height="auto" className="minea"></img>
+                <img src={bd3} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd4} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd6} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd7} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd8} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd11} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd14} alt="synttärit" width="450px" height="auto" className="norway"></img>
+                <img src={bd13} alt="synttärit" width="450px" height="auto" className="norway"></img>
             </div>
         )
     }

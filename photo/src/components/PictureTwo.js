@@ -14,16 +14,16 @@ export class PictureTwo extends Component {
     render() {
         return (
             <div>
-                <img src={Lea} alt="Lea" width="450px" height="auto" className="minea"></img>
-                <img src={Lea2} alt="Lea" width="450px" height="auto" className="minea"></img>
+                <img src={Lea} alt="Lea" width="450px" height="auto" className="norway"></img>
+                <img src={Lea2} alt="Lea" width="450px" height="auto" className="norway"></img>
                 {/* <img src={Lea3} alt="Lea" width="450px" height="auto" className="minea"></img> */}
-                <img src={Minea} alt="Minea" width="450px" height="auto" className="minea"></img>
-                <img src={Minea2} alt="Minea" width="450px" height="auto" className="minea"></img>
-                <img src={Minea3} alt="Minea" width="450px" height="auto" className="minea"></img>
-                <img src={Minea4} alt="Minea" width="450px" height="auto" className="minea"></img>
-                <img src={Minea5} alt="Minea" width="450px" height="auto" className="minea"></img>
-                <img src={Minea6} alt="Minea" width="450px" height="auto" className="minea"></img>
-                <img src={Minea7} alt="Minea" width="450px" height="auto" className="minea"></img>
+                <img src={Minea} alt="Minea" width="450px" height="auto" className="norway"></img>
+                <img src={Minea2} alt="Minea" width="450px" height="auto" className="norway"></img>
+                <img src={Minea3} alt="Minea" width="450px" height="auto" className="norway"></img>
+                <img src={Minea4} alt="Minea" width="450px" height="auto" className="norway"></img>
+                <img src={Minea5} alt="Minea" width="450px" height="auto" className="norway"></img>
+                <img src={Minea6} alt="Minea" width="450px" height="auto" className="norway"></img>
+                <img src={Minea7} alt="Minea" width="450px" height="auto" className="norway"></img>
             </div>
         )
     }

@@ -13,7 +13,7 @@ export class Home extends Component {
                 </h1>
                     </div>
                     <div className="front-pic">
-                        <img src={maisema} alt="maisema" width="480px" height="600px"></img>
+                        <img src={maisema} alt="maisema" className="maisema"></img>
                     </div>
                 </div>
             </div >
