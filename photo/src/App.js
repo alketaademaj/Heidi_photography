@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import PictureOne from './components/PictureOne';
 import PictureTwo from './components/PictureTwo';
 import PictureThree from './components/PictureThree';
-
+import logo from './logo1.PNG'
 //Link uses client side routing so you're not reloading the entire application 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link className="color" to="/"><img alt="logo" src="/img/logo1.PNG" width="180px" height="50px"></img></Link>
+              <Link className="color" to="/"><img alt="logo" src={logo} width="180px" height="50px"></img></Link>
             </li>
             <li>
               <Link className="color" to="/">Home</Link>

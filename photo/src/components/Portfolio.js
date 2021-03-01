@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import meri from '../norway/meri1.jpeg'
+import minea from '../minea/Minea1.jpeg'
+import synttärit from '../synttärit/bd4.jpeg'
 
 export default function Portfolio() {
 
@@ -7,7 +10,7 @@ export default function Portfolio() {
         <div>
             <div className="picturebox">
                 <div className="singlebox">
-                    <img src="/norway/meri1.jpeg" alt="meri" width="300px"></img>
+                    <img src={meri} alt={"meri"} width="400px"></img>
                     <Link
                         className="view-button"
                         to={{
@@ -18,7 +21,7 @@ export default function Portfolio() {
         </Link>
                 </div>
                 <div className="singlebox">
-                    <img src="/minea/Minea1.jpeg" alt="meri" width="300px"></img>
+                    <img src={minea} alt={"minea"} width="400px"></img>
                     <Link
                         className="view-button"
                         to={{
@@ -29,14 +32,14 @@ export default function Portfolio() {
         </Link>
                 </div>
                 <div className="singlebox">
-                    <img src="/synttärit/bd4.jpeg" alt="meri" width="300px"></img>
+                    <img src={synttärit} alt="synttärit" width="400px"></img>
                     <Link
                         className="view-button"
                         to={{
                             pathname: "/PictureThree",
                         }}
                     >
-                        Minea
+                        Birthday
         </Link>
                 </div>
             </div>

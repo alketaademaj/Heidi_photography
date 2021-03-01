@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import maisema from '../img/maisema.jpeg'
 
 export class Home extends Component {
 
@@ -12,7 +13,7 @@ export class Home extends Component {
                 </h1>
                     </div>
                     <div className="front-pic">
-                        <img src="/img/maisema.jpeg" alt="valas" width="480px" height="600px"></img>
+                        <img src={maisema} alt="maisema" width="480px" height="600px"></img>
                     </div>
                 </div>
             </div >

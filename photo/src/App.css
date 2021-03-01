@@ -115,3 +115,7 @@ textarea {
 .minea {
   padding: 5px;
 }
+img:hover {
+  background-color: gray;
+  opacity: 0.8;
+}
