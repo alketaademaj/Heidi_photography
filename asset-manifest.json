@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Heidi_photography/static/css/main.cc2ed11e.chunk.css",
+    "main.js": "/Heidi_photography/static/js/main.9fcc06f9.chunk.js",
+    "main.js.map": "/Heidi_photography/static/js/main.9fcc06f9.chunk.js.map",
+    "runtime-main.js": "/Heidi_photography/static/js/runtime-main.f533317f.js",
+    "runtime-main.js.map": "/Heidi_photography/static/js/runtime-main.f533317f.js.map",
+    "static/js/2.c1c588de.chunk.js": "/Heidi_photography/static/js/2.c1c588de.chunk.js",
+    "static/js/2.c1c588de.chunk.js.map": "/Heidi_photography/static/js/2.c1c588de.chunk.js.map",
+    "static/js/3.3066bb26.chunk.js": "/Heidi_photography/static/js/3.3066bb26.chunk.js",
+    "static/js/3.3066bb26.chunk.js.map": "/Heidi_photography/static/js/3.3066bb26.chunk.js.map",
+    "index.html": "/Heidi_photography/index.html",
+    "static/css/main.cc2ed11e.chunk.css.map": "/Heidi_photography/static/css/main.cc2ed11e.chunk.css.map",
+    "static/js/2.c1c588de.chunk.js.LICENSE.txt": "/Heidi_photography/static/js/2.c1c588de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f533317f.js",
+    "static/js/2.c1c588de.chunk.js",
+    "static/css/main.cc2ed11e.chunk.css",
+    "static/js/main.9fcc06f9.chunk.js"
+  ]
+}
