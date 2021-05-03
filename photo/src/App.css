@@ -74,7 +74,8 @@ h2 {
   flex-direction: column;
 }
 .button {
-  background-color: orangered;
+  background-color: rgb(75, 73, 72);
+  margin: 10px;
 }
 input,
 textarea {
@@ -120,4 +121,12 @@ textarea {
 .maisema {
   width: 480px;
   height: 600px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 2px 5px;
 }

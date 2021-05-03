@@ -15,18 +15,21 @@ export default function Contact() {
     }
 
     return (
-        <form className="contact-form" onSubmit={sendEmail}>
-            <div className="style-form">
-                <input type="hidden" name="contact_number" />
-                <label>Name</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea rows="8" cols="30" name="message" />
-                <input className="button" type="submit" value="Send" />
-            </div>
-        </form>
+        <div className="contact-form-style">
+            <h2>Contact</h2>
+            <form className="contact-form" onSubmit={sendEmail}>
+                <div className="style-form">
+                    <input type="hidden" name="contact_number" />
+                    <label>Name</label>
+                    <input type="text" name="user_name" />
+                    <label>Email</label>
+                    <input type="email" name="user_email" />
+                    <label>Message</label>
+                    <textarea rows="8" cols="30" name="message" />
+                    <input className="button" type="submit" value="Send" />
+                </div>
+            </form>
+        </div>
     );
 }
 
